@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Paulo Ricardo Rinaldi da Silva</title>
+</head>
+<body>
+    <header>
+        <a href="#" id="logo">Paulo<span>.Dev</span></a>
+        <nav>
+            <a href="">Sobre</a>
+            <a href="">Habilidades</a>
+            <a href="">Projetos</a>
+            <a href="">Contato</a>
+        </nav>
+        <button id="botao-tema"><img src="./img/sol.png" alt=""> <span id="texto-tema">Tema escuro</span></button>
+    </header>
+    <main>
+        <section id="hero">
+            <img src="./img/eu.jpeg" alt="Paulo">
+            <h1>Paulo Ricardo</h1>
+            <h2>Desenvolvedor Front-End</h2>
+            <p>Crio sites bonitos, rápidos e que funcionam bem no celular e no computador.</p>
+            <button href="#">Veja meus Projetos</button>
+        </section>
+
+        <section class= "sections" id ="sobre">
+            <h3>Sobre Mim</h3>
+            <p>
+                Desenvolvedor Full Stack, com experiência no desenvolvimento de aplicações web e soluções 
+               tecnológicas. Possuo conhecimentos em HTML, CSS, JavaScript e desenvolvimento backend com NestJS, 
+               atuando na criação de sistemas e integrações. Também contribuo com a disseminação do conhecimento 
+               tecnológico por meio da organização de workshops e da produção de materiais didáticos. 
+               Busco constantemente aprimorar minhas habilidades e compartilhar conhecimentos na área de 
+               tecnologia.
+            </p>
+        </section>
+        
+        <section class="sections" id="Habilidades">
+            <h3>Habilidades</h3>
+                <ul id="stacks">
+                    <li><img src="./img/html-5.png" alt="html-5"><h4>HTML</h4></li>
+                    <li><img src="./img/css-3.png" alt="css-3"><h4>CSS</h4></li>
+                    <li><img src="./img/js.png" alt="javascript"><h4>JAVASCRIPT</h4></li>
+                    <li><img src="./img/github.png" alt=""><h4>GITHUB</h4></li>
+                    <li><img src="./img/c.png" alt="C"><h4>C</h4></li>
+                </ul>
+        </section>
+
+        <section class="sections" id="projetos">
+            <h3>Projetos</h3>
+            <div class="carrossel" id="carrossel">
+                <div class="card">
+                    <img src="./img/sobre.jpg" alt="Notebook e caderno com rascunhos">
+                    <h5>Projeto Meu Currículo</h5>
+                    <p>
+                        Projeto desenvolvido durante a Workingtech da unicesumar
+                        trabalhando os web fundamentos
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./img/projeto-tarefas.jpg" alt="Notebook ao lado de uma xícara de café">
+                    <h5>Lista de Tarefas</h5>
+                    <p>Aplicativo para organizar o dia.</p>
+                </div>
+                <div class="card">
+                    <img src="./img/projeto-cafeteria.jpg" alt="Barista preparando café">
+                    <h5>Site da Cafeteria</h5>
+                    <p>Página de uma cafeteria com cardápio.</p>
+                </div>
+                <div class="card">
+                    <img src="./img/projeto-clima.jpg" alt="Barraca amarela na neve">
+                    <h5>Clima Agora</h5>
+                    <p>Mostra a previsão do tempo de qualquer cidade.</p>
+                </div>
+                <div class="card">
+                    <img src="./img/sobre.jpg" alt="Notebook e caderno com rascunhos">
+                    <h5>Projeto Meu Currículo</h5>
+                    <p>
+                        Projeto desenvolvido durante a Workingtech da unicesumar
+                        trabalhando os web fundamentos
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./img/projeto-tarefas.jpg" alt="Notebook ao lado de uma xícara de café">
+                    <h5>Lista de Tarefas</h5>
+                    <p>Aplicativo para organizar o dia.</p>
+                </div>
+                <div class="card">
+                    <img src="./img/projeto-cafeteria.jpg" alt="Barista preparando café">
+                    <h5>Site da Cafeteria</h5>
+                    <p>Página de uma cafeteria com cardápio.</p>
+                </div>
+                <div class="card">
+                    <img src="./img/projeto-clima.jpg" alt="Barraca amarela na neve">
+                    <h5>Clima Agora</h5>
+                    <p>Mostra a previsão do tempo de qualquer cidade.</p>
+                </div>
+            </div>
+            <div class="setas">
+                <button id="voltar">></button>
+                <button id="avancar"><</button>
+            </div>
+        </section>
+
+        <section class="sections" id="contato">
+            <h3>Entre em contato</h3>
+            <div class="contato">
+                <form class="formulario" id="formulario">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" rows="5" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                    <p class="resposta" id="resposta"></p>
+                </form>
+
+                <img src="./img/webfundamentos.jpg" alt="Web Fundamentos">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="./img/workingtech_logo.png" alt="Logo da Work in Tech">
+        <p>© 2026 Paulo Ricardo · Feito no Workshop Web Fundamentos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
